@@ -1,0 +1,56 @@
+.icons{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    backdrop-filter: blur(5px);
+}
+
+/* HOVER */
+.cryo{
+    transition: all 1000ms ease-in-out;
+    width: fit-content;
+    display: inline-block;
+}
+
+.icons .cryo:hover{
+    transform: scale(1.3, 1.3) rotate(360deg);
+    filter: invert(5%) sepia(76%) saturate(6532%) hue-rotate(-191deg) brightness(91%) contrast(96%);
+}
+
+.anemo{
+    transition: all 1000ms ease-in-out;
+    width: fit-content;
+    display: inline-block;
+    
+}
+
+.icons .anemo:hover{
+    transform: scale(1.3, 1.3) rotate(360deg);
+    filter: invert(16%) sepia(32%) saturate(310%) hue-rotate(94deg) brightness(101%) contrast(94%);
+}
+
+.electro{
+    transition: all 1000ms ease-in-out;
+    width: fit-content;
+    display: inline-block;
+}
+
+.icons .electro:hover{
+    transform: scale(1.3, 1.3) rotate(360deg);
+    filter: invert(32%) sepia(8%) saturate(1386%) hue-rotate(235deg) brightness(89%) contrast(91%);
+}
+
+.pyro{
+    transition: all 1000ms ease-in-out;
+    width: fit-content;
+    display: inline-block;
+}
+
+.icons .pyro:hover{
+    transform: scale(1.3, 1.3) rotate(360deg);
+    filter: invert(49%) sepia(70%) saturate(967%)  brightness(100%) contrast(88%);
+}

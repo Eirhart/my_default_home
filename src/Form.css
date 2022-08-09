@@ -1,0 +1,64 @@
+.formahan{
+    width: 320px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+form label{
+    justify-self: flex-start;
+    align-self: flex-start;
+    margin: 5px 12px;
+    color: rgb(168, 168, 168);
+}
+
+input:focus{
+    outline: none;
+}
+
+form input{
+    width: 90%;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid rgb(168, 168, 168);
+    border-bottom: 1px solid rgb(168, 168, 168);
+    height: 20px;
+    outline: none;
+}
+
+hr{
+    width: 90%;
+    border-color: rgb(139, 139, 139);
+}
+
+.addlink, .backing{
+    font-size: 20px;
+    display: flex;
+    margin: 5px 5px 5px;
+    justify-content: space-between;
+    padding: 5px 15px 5px 5px;
+    border-radius: 5px;
+    width: 310px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.addlink{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.addlink span{
+    color:white
+}
+
+.addlink:hover, .backing:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+

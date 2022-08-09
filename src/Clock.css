@@ -1,0 +1,46 @@
+.clock{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    font-size: 100px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: default;
+    user-select: none;
+    transition: all 0.5s ease-in-out;
+    transform: translate(-50%, 0);
+}
+
+.clock span{
+    color: rgb(0, 255, 255);
+}
+
+.rgb{
+    position: absolute;
+    height: 10px;
+    width: 700px;
+    z-index: 1;
+    background: linear-gradient(135deg, #57ffae, #57ffff, #5792ff);
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation: animate 4s linear infinite;
+}
+
+.rgb span{
+    position: absolute;
+    background: inherit;
+    top: 0%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    filter: blur(10px);
+}
+
+@keyframes animate {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}

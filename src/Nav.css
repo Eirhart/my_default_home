@@ -1,0 +1,16 @@
+.nav{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 320px;
+    position: absolute;
+    right: 10px;
+    top: 5%;
+    overflow: hidden;
+    transition: all ease 0.3s;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.navCont{
+    display: flex;
+}
