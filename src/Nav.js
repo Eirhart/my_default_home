@@ -45,6 +45,7 @@ const Nav = ({ navBar }) => {
   return (
     <motion.div 
     className='nav'
+    initial={{height: 0}}
     animate={{
       height: navBar ? menuHeight : 0,
     }}

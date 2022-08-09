@@ -13,11 +13,13 @@ function App() {
       <motion.button
         onClick={() => setNavBar(!navBar)} 
         className='navButton'
+        initial={{backgroundColor: 'transparent'}}
         animate={{
           backgroundColor: navBar ? 'rgba(0, 0, 0, 0.9)' : 'transparent'
         }}
         >
           <motion.div
+          initial={{filter: 'none'}}
           animate={{
             filter: navBar ? 'invert(41%) sepia(53%) saturate(5827%) hue-rotate(214deg) brightness(104%) contrast(101%)' : 'none'
           }}
