@@ -28,7 +28,7 @@ const Clock = () => {
         currDisplay = display2
     }
 
-    let dayNight = hour > 12 ? 'PM' : 'AM'
+    let dayNight = hour >= 12 ? 'PM' : 'AM'
 
     let bg
     if(dayNight === 'AM'){
