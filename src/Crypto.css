@@ -1,0 +1,26 @@
+.coinsCon{
+    position: absolute;
+}
+
+.coinsConCon{
+    display: flex;
+    align-items: center;
+}
+
+.coinsConCon h3{
+    width: 120px;
+    margin: 0;
+}
+
+.coins{
+    display: flex;
+    font-weight: 600;
+}
+
+.coinsConCon p{
+    margin: 0;
+}
+
+.coins p:first-child{
+    width: 100px;
+}

@@ -3,13 +3,17 @@ import './App.css'
 import Clock from './Clock';
 import Icons from './Icons';
 import Nav from './Nav';
+// import axios from 'axios';
 import { motion } from 'framer-motion'
 import { ReactComponent as CaretIcon } from './icons/careto.svg'
+import Crypto from './Crypto';
 
 function App() {
   const [navBar, setNavBar] = useState(false)
+  
   return (
     <div className="App">
+      <Crypto />
       <motion.button
         onClick={() => setNavBar(!navBar)} 
         className='navButton'

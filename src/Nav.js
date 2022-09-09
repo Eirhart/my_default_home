@@ -2,10 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Form from './Form'
 import Links from './Links'
 import './Nav.css'
-import { motion, AnimatePresence } from 'framer-motion'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlus } from '@fortawesome/free-solid-svg-icons'
-import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
+import { motion } from 'framer-motion'
 
 const Nav = ({ navBar }) => {
     const [list, setList] = useState(JSON.parse(localStorage.getItem('links')) || [])
