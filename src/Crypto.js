@@ -34,6 +34,7 @@ const Crypto = () => {
       <div>
         {bitcoin.map(coin => (
           <div key={coin.symbol} className='coinsConCon'>
+            <img src={coin.image} width="18px" height="18px" alt="" />
             <h3 onClick={links}>{coin.name}</h3>
             <div className='coins'>
               <p>₱{coin.current_price.toLocaleString()}</p>
@@ -45,6 +46,7 @@ const Crypto = () => {
       <div>
         {ethe.map(coin => (
           <div key={coin.symbol} className='coinsConCon'>
+            <img src={coin.image} width="18px" height="18px" alt="" />
             <image src={coin.image} alt='crypto' />
             <h3 onClick={links}>{coin.name}</h3>
             <div className='coins'>
@@ -57,6 +59,7 @@ const Crypto = () => {
       <div>
         {slp.map(coin => (
           <div key={coin.symbol} className='coinsConCon'>
+            <img src={coin.image} width="18px" height="18px" alt="" />
             <h3 onClick={links}>{coin.symbol.toUpperCase()}</h3>
             <div className='coins'>
               <p>₱{coin.current_price.toLocaleString()}</p>

@@ -24,3 +24,7 @@
 .coins p:first-child{
     width: 100px;
 }
+
+.coinsCon img{
+    margin-right: 5px;
+}
