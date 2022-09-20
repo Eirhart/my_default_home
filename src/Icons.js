@@ -18,6 +18,10 @@ const Icons = () => {
         <a className="cryo icon" href="https://www.facebook.com/">
         <img src={require("./img/cryo.png")} width="100px" height="100px" alt="" />
         </a>
+
+        <a className="hydro icon" href="https://trello.com/b/zvynRcOg/daily-task-management">
+        <img src={require("./img/hydro.png")} width="100px" height="100px" alt="" />
+        </a>
     </div>
   )
 }
