@@ -19,7 +19,7 @@ const Icons = () => {
         <img src={require("./img/cryo.png")} width="100px" height="100px" alt="" />
         </a>
 
-        <a className="hydro icon" href="https://trello.com/b/zvynRcOg/daily-task-management">
+        <a className="hydro icon" href="https://www.freecodecamp.org/learn/">
         <img src={require("./img/hydro.png")} width="100px" height="100px" alt="" />
         </a>
     </div>
